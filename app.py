@@ -34,6 +34,16 @@ pagina = st.sidebar.radio(
 if pagina == "Tabela":
     st.title("Tabela das 10 viagens mais feitas")
     st.dataframe()
+    st.markdown(f"""
+        Hoje eu queria tirar um tempinho para agradecer por tudo o que você faz. 
+        Sua paciência, dedicação e carinho transformam o aprendizado em algo muito especial! Você foi uma das melhores professoras que ja tive 
+        
+        Obrigado por ensinar não apenas as matérias, mas também valores que levarei para a vida toda. 
+        Você faz toda a diferença!
+        
+        **Com muito carinho,**  
+        *FRED*
+        """)
 
 
 else:
